@@ -142,6 +142,17 @@ public class StatementPrinter {
     }
 
     /**
+     * Calculates the total volume credits for the given performance.
+     *
+     * @param performance the performance
+     * @return the total volume credits for this performance
+     */
+    public int getTotalVolumeCredits(Performance performance) {
+        final Play play = getPlay(performance);
+        return getVolumeCredits(performance, play);
+    }
+
+    /**
      * Converts the given amount into a USD formatted string.
      *
      * @param amount the amount in cents to be formatted into USD.
