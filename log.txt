@@ -1,2 +1,7 @@
-3d31d48 (HEAD -> main, origin/main, origin/HEAD) Task 1.1: CheckStyle fixed
+da262e5 Task2.3 finished
+84a9cfd Task 2.2 finished
+2728dff Task 2.1 finished
+5b4cbd4 Task 1.2: added to log.txt (update message)
+b85b02a added to log.txt
+3d31d48 Task 1.1: CheckStyle fixed
 d1a2f99 Initial commit
